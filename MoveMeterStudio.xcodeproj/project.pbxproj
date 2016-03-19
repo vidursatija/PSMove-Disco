@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96FD56741C9D34D40075BF12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FD56731C9D34D40075BF12 /* AppDelegate.swift */; };
+		96FD56761C9D34D40075BF12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FD56751C9D34D40075BF12 /* ViewController.swift */; };
+		96FD56781C9D34D40075BF12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FD56771C9D34D40075BF12 /* Assets.xcassets */; };
+		96FD567B1C9D34D40075BF12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FD56791C9D34D40075BF12 /* Main.storyboard */; };
+		96FD56861C9D34D50075BF12 /* MoveMeterStudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FD56851C9D34D50075BF12 /* MoveMeterStudioTests.swift */; };
+		96FD56911C9D34D50075BF12 /* MoveMeterStudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FD56901C9D34D50075BF12 /* MoveMeterStudioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96FD56821C9D34D40075BF12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96FD56681C9D34D40075BF12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96FD566F1C9D34D40075BF12;
+			remoteInfo = MoveMeterStudio;
+		};
+		96FD568D1C9D34D50075BF12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96FD56681C9D34D40075BF12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96FD566F1C9D34D40075BF12;
+			remoteInfo = MoveMeterStudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96FD56701C9D34D40075BF12 /* MoveMeterStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveMeterStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FD56731C9D34D40075BF12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96FD56751C9D34D40075BF12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96FD56771C9D34D40075BF12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96FD567A1C9D34D40075BF12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96FD567C1C9D34D40075BF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FD56811C9D34D40075BF12 /* MoveMeterStudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveMeterStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FD56851C9D34D50075BF12 /* MoveMeterStudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveMeterStudioTests.swift; sourceTree = "<group>"; };
+		96FD56871C9D34D50075BF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FD568C1C9D34D50075BF12 /* MoveMeterStudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveMeterStudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FD56901C9D34D50075BF12 /* MoveMeterStudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveMeterStudioUITests.swift; sourceTree = "<group>"; };
+		96FD56921C9D34D50075BF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96FD566D1C9D34D40075BF12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FD567E1C9D34D40075BF12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FD56891C9D34D50075BF12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96FD56671C9D34D40075BF12 = {
+			isa = PBXGroup;
+			children = (
+				96FD56721C9D34D40075BF12 /* MoveMeterStudio */,
+				96FD56841C9D34D50075BF12 /* MoveMeterStudioTests */,
+				96FD568F1C9D34D50075BF12 /* MoveMeterStudioUITests */,
+				96FD56711C9D34D40075BF12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96FD56711C9D34D40075BF12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96FD56701C9D34D40075BF12 /* MoveMeterStudio.app */,
+				96FD56811C9D34D40075BF12 /* MoveMeterStudioTests.xctest */,
+				96FD568C1C9D34D50075BF12 /* MoveMeterStudioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96FD56721C9D34D40075BF12 /* MoveMeterStudio */ = {
+			isa = PBXGroup;
+			children = (
+				96FD56731C9D34D40075BF12 /* AppDelegate.swift */,
+				96FD56751C9D34D40075BF12 /* ViewController.swift */,
+				96FD56771C9D34D40075BF12 /* Assets.xcassets */,
+				96FD56791C9D34D40075BF12 /* Main.storyboard */,
+				96FD567C1C9D34D40075BF12 /* Info.plist */,
+			);
+			path = MoveMeterStudio;
+			sourceTree = "<group>";
+		};
+		96FD56841C9D34D50075BF12 /* MoveMeterStudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				96FD56851C9D34D50075BF12 /* MoveMeterStudioTests.swift */,
+				96FD56871C9D34D50075BF12 /* Info.plist */,
+			);
+			path = MoveMeterStudioTests;
+			sourceTree = "<group>";
+		};
+		96FD568F1C9D34D50075BF12 /* MoveMeterStudioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96FD56901C9D34D50075BF12 /* MoveMeterStudioUITests.swift */,
+				96FD56921C9D34D50075BF12 /* Info.plist */,
+			);
+			path = MoveMeterStudioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96FD566F1C9D34D40075BF12 /* MoveMeterStudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FD56951C9D34D50075BF12 /* Build configuration list for PBXNativeTarget "MoveMeterStudio" */;
+			buildPhases = (
+				96FD566C1C9D34D40075BF12 /* Sources */,
+				96FD566D1C9D34D40075BF12 /* Frameworks */,
+				96FD566E1C9D34D40075BF12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoveMeterStudio;
+			productName = MoveMeterStudio;
+			productReference = 96FD56701C9D34D40075BF12 /* MoveMeterStudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96FD56801C9D34D40075BF12 /* MoveMeterStudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FD56981C9D34D50075BF12 /* Build configuration list for PBXNativeTarget "MoveMeterStudioTests" */;
+			buildPhases = (
+				96FD567D1C9D34D40075BF12 /* Sources */,
+				96FD567E1C9D34D40075BF12 /* Frameworks */,
+				96FD567F1C9D34D40075BF12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96FD56831C9D34D40075BF12 /* PBXTargetDependency */,
+			);
+			name = MoveMeterStudioTests;
+			productName = MoveMeterStudioTests;
+			productReference = 96FD56811C9D34D40075BF12 /* MoveMeterStudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96FD568B1C9D34D50075BF12 /* MoveMeterStudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FD569B1C9D34D50075BF12 /* Build configuration list for PBXNativeTarget "MoveMeterStudioUITests" */;
+			buildPhases = (
+				96FD56881C9D34D50075BF12 /* Sources */,
+				96FD56891C9D34D50075BF12 /* Frameworks */,
+				96FD568A1C9D34D50075BF12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96FD568E1C9D34D50075BF12 /* PBXTargetDependency */,
+			);
+			name = MoveMeterStudioUITests;
+			productName = MoveMeterStudioUITests;
+			productReference = 96FD568C1C9D34D50075BF12 /* MoveMeterStudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96FD56681C9D34D40075BF12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Aromatic Studios";
+				TargetAttributes = {
+					96FD566F1C9D34D40075BF12 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					96FD56801C9D34D40075BF12 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 96FD566F1C9D34D40075BF12;
+					};
+					96FD568B1C9D34D50075BF12 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 96FD566F1C9D34D40075BF12;
+					};
+				};
+			};
+			buildConfigurationList = 96FD566B1C9D34D40075BF12 /* Build configuration list for PBXProject "MoveMeterStudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96FD56671C9D34D40075BF12;
+			productRefGroup = 96FD56711C9D34D40075BF12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96FD566F1C9D34D40075BF12 /* MoveMeterStudio */,
+				96FD56801C9D34D40075BF12 /* MoveMeterStudioTests */,
+				96FD568B1C9D34D50075BF12 /* MoveMeterStudioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96FD566E1C9D34D40075BF12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FD56781C9D34D40075BF12 /* Assets.xcassets in Resources */,
+				96FD567B1C9D34D40075BF12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FD567F1C9D34D40075BF12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FD568A1C9D34D50075BF12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96FD566C1C9D34D40075BF12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FD56761C9D34D40075BF12 /* ViewController.swift in Sources */,
+				96FD56741C9D34D40075BF12 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FD567D1C9D34D40075BF12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FD56861C9D34D50075BF12 /* MoveMeterStudioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FD56881C9D34D50075BF12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FD56911C9D34D50075BF12 /* MoveMeterStudioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96FD56831C9D34D40075BF12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96FD566F1C9D34D40075BF12 /* MoveMeterStudio */;
+			targetProxy = 96FD56821C9D34D40075BF12 /* PBXContainerItemProxy */;
+		};
+		96FD568E1C9D34D50075BF12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96FD566F1C9D34D40075BF12 /* MoveMeterStudio */;
+			targetProxy = 96FD568D1C9D34D50075BF12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96FD56791C9D34D40075BF12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96FD567A1C9D34D40075BF12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96FD56931C9D34D50075BF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96FD56941C9D34D50075BF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96FD56961C9D34D50075BF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoveMeterStudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.MoveMeterStudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96FD56971C9D34D50075BF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoveMeterStudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.MoveMeterStudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96FD56991C9D34D50075BF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoveMeterStudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.MoveMeterStudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveMeterStudio.app/Contents/MacOS/MoveMeterStudio";
+			};
+			name = Debug;
+		};
+		96FD569A1C9D34D50075BF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoveMeterStudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.MoveMeterStudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveMeterStudio.app/Contents/MacOS/MoveMeterStudio";
+			};
+			name = Release;
+		};
+		96FD569C1C9D34D50075BF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoveMeterStudioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.MoveMeterStudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoveMeterStudio;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		96FD569D1C9D34D50075BF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoveMeterStudioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.MoveMeterStudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoveMeterStudio;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96FD566B1C9D34D40075BF12 /* Build configuration list for PBXProject "MoveMeterStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FD56931C9D34D50075BF12 /* Debug */,
+				96FD56941C9D34D50075BF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96FD56951C9D34D50075BF12 /* Build configuration list for PBXNativeTarget "MoveMeterStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FD56961C9D34D50075BF12 /* Debug */,
+				96FD56971C9D34D50075BF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96FD56981C9D34D50075BF12 /* Build configuration list for PBXNativeTarget "MoveMeterStudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FD56991C9D34D50075BF12 /* Debug */,
+				96FD569A1C9D34D50075BF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96FD569B1C9D34D50075BF12 /* Build configuration list for PBXNativeTarget "MoveMeterStudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FD569C1C9D34D50075BF12 /* Debug */,
+				96FD569D1C9D34D50075BF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96FD56681C9D34D40075BF12 /* Project object */;
+}
