@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "96FD566F1C9D34D40075BF12"
+               BuildableName = "MoveMeterStudio.app"
+               BlueprintName = "MoveMeterStudio"
+               ReferencedContainer = "container:MoveMeterStudio.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "96FD56801C9D34D40075BF12"
+               BuildableName = "MoveMeterStudioTests.xctest"
+               BlueprintName = "MoveMeterStudioTests"
+               ReferencedContainer = "container:MoveMeterStudio.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "96FD568B1C9D34D50075BF12"
+               BuildableName = "MoveMeterStudioUITests.xctest"
+               BlueprintName = "MoveMeterStudioUITests"
+               ReferencedContainer = "container:MoveMeterStudio.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "96FD566F1C9D34D40075BF12"
+            BuildableName = "MoveMeterStudio.app"
+            BlueprintName = "MoveMeterStudio"
+            ReferencedContainer = "container:MoveMeterStudio.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "96FD566F1C9D34D40075BF12"
+            BuildableName = "MoveMeterStudio.app"
+            BlueprintName = "MoveMeterStudio"
+            ReferencedContainer = "container:MoveMeterStudio.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "96FD566F1C9D34D40075BF12"
+            BuildableName = "MoveMeterStudio.app"
+            BlueprintName = "MoveMeterStudio"
+            ReferencedContainer = "container:MoveMeterStudio.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

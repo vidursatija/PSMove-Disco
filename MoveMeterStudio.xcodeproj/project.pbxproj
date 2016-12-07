@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96D7B05E1C9D8319001722A2 /* MeterTable.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96D7B05D1C9D8319001722A2 /* MeterTable.mm */; };
 		96FD56741C9D34D40075BF12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FD56731C9D34D40075BF12 /* AppDelegate.swift */; };
 		96FD56761C9D34D40075BF12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FD56751C9D34D40075BF12 /* ViewController.swift */; };
 		96FD56781C9D34D40075BF12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FD56771C9D34D40075BF12 /* Assets.xcassets */; };
 		96FD567B1C9D34D40075BF12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FD56791C9D34D40075BF12 /* Main.storyboard */; };
 		96FD56861C9D34D50075BF12 /* MoveMeterStudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FD56851C9D34D50075BF12 /* MoveMeterStudioTests.swift */; };
 		96FD56911C9D34D50075BF12 /* MoveMeterStudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FD56901C9D34D50075BF12 /* MoveMeterStudioUITests.swift */; };
+		96FD569F1C9D34E50075BF12 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FD569E1C9D34E50075BF12 /* QuartzCore.framework */; };
+		96FD56A11C9D34EB0075BF12 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FD56A01C9D34EB0075BF12 /* AVFoundation.framework */; };
+		96FD56A31C9D34F70075BF12 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FD56A21C9D34F70075BF12 /* CoreMedia.framework */; };
+		96FD56A51C9D35010075BF12 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FD56A41C9D35010075BF12 /* CoreAudio.framework */; };
+		96FD56AB1C9D354E0075BF12 /* libpsmoveapi.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FD56AA1C9D354E0075BF12 /* libpsmoveapi.3.1.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		96D7B05D1C9D8319001722A2 /* MeterTable.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MeterTable.mm; sourceTree = "<group>"; };
+		96D7B05F1C9D832C001722A2 /* MeterTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeterTable.h; sourceTree = "<group>"; };
 		96FD56701C9D34D40075BF12 /* MoveMeterStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveMeterStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FD56731C9D34D40075BF12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96FD56751C9D34D40075BF12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +53,12 @@
 		96FD568C1C9D34D50075BF12 /* MoveMeterStudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveMeterStudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FD56901C9D34D50075BF12 /* MoveMeterStudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveMeterStudioUITests.swift; sourceTree = "<group>"; };
 		96FD56921C9D34D50075BF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FD569E1C9D34E50075BF12 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		96FD56A01C9D34EB0075BF12 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		96FD56A21C9D34F70075BF12 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		96FD56A41C9D35010075BF12 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		96FD56A61C9D35390075BF12 /* MoveMeterStudio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoveMeterStudio-Bridging-Header.h"; sourceTree = "<group>"; };
+		96FD56AA1C9D354E0075BF12 /* libpsmoveapi.3.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libpsmoveapi.3.1.0.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96FD56A51C9D35010075BF12 /* CoreAudio.framework in Frameworks */,
+				96FD56A31C9D34F70075BF12 /* CoreMedia.framework in Frameworks */,
+				96FD56A11C9D34EB0075BF12 /* AVFoundation.framework in Frameworks */,
+				96FD56AB1C9D354E0075BF12 /* libpsmoveapi.3.1.0.dylib in Frameworks */,
+				96FD569F1C9D34E50075BF12 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +94,13 @@
 		96FD56671C9D34D40075BF12 = {
 			isa = PBXGroup;
 			children = (
+				96D7B05D1C9D8319001722A2 /* MeterTable.mm */,
+				96D7B05F1C9D832C001722A2 /* MeterTable.h */,
+				96FD56AA1C9D354E0075BF12 /* libpsmoveapi.3.1.0.dylib */,
+				96FD56A41C9D35010075BF12 /* CoreAudio.framework */,
+				96FD56A21C9D34F70075BF12 /* CoreMedia.framework */,
+				96FD56A01C9D34EB0075BF12 /* AVFoundation.framework */,
+				96FD569E1C9D34E50075BF12 /* QuartzCore.framework */,
 				96FD56721C9D34D40075BF12 /* MoveMeterStudio */,
 				96FD56841C9D34D50075BF12 /* MoveMeterStudioTests */,
 				96FD568F1C9D34D50075BF12 /* MoveMeterStudioUITests */,
@@ -100,6 +126,7 @@
 				96FD56771C9D34D40075BF12 /* Assets.xcassets */,
 				96FD56791C9D34D40075BF12 /* Main.storyboard */,
 				96FD567C1C9D34D40075BF12 /* Info.plist */,
+				96FD56A61C9D35390075BF12 /* MoveMeterStudio-Bridging-Header.h */,
 			);
 			path = MoveMeterStudio;
 			sourceTree = "<group>";
@@ -190,6 +217,7 @@
 				TargetAttributes = {
 					96FD566F1C9D34D40075BF12 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 88UXXNYF67;
 					};
 					96FD56801C9D34D40075BF12 = {
 						CreatedOnToolsVersion = 7.2;
@@ -254,6 +282,7 @@
 			files = (
 				96FD56761C9D34D40075BF12 /* ViewController.swift in Sources */,
 				96FD56741C9D34D40075BF12 /* AppDelegate.swift in Sources */,
+				96D7B05E1C9D8319001722A2 /* MeterTable.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,11 +413,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = $PSMOVEAPI_PATH/include;
 				INFOPLIST_FILE = MoveMeterStudio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.MoveMeterStudio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PSMOVEAPI_PATH = /Users/vidursatija/Library/Developer/psmoveapi;
+				SWIFT_OBJC_BRIDGING_HEADER = "MoveMeterStudio/MoveMeterStudio-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -396,11 +434,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = $PSMOVEAPI_PATH/include;
 				INFOPLIST_FILE = MoveMeterStudio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.MoveMeterStudio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PSMOVEAPI_PATH = /Users/vidursatija/Library/Developer/psmoveapi;
+				SWIFT_OBJC_BRIDGING_HEADER = "MoveMeterStudio/MoveMeterStudio-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -475,6 +521,7 @@
 				96FD56971C9D34D50075BF12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96FD56981C9D34D50075BF12 /* Build configuration list for PBXNativeTarget "MoveMeterStudioTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +530,7 @@
 				96FD569A1C9D34D50075BF12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96FD569B1C9D34D50075BF12 /* Build configuration list for PBXNativeTarget "MoveMeterStudioUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +539,7 @@
 				96FD569D1C9D34D50075BF12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
